@@ -1,13 +1,10 @@
 close all
 clear
 
-% load eigenpair1
-% load eigenpair2
-% load eigenpair_NLS
-% load eigenpair_NLS_v2 % pt1
+load eigenpair_NLS_v2 % pt1
 % load eigenpair_NLS_pt2 % pt2
 % load eigenpair_NLS_pt1_conj % conjugate of pt1
-load eigenpair_NLS_pt2_conj % conjugate of pt2
+% load eigenpair_NLS_pt2_conj % conjugate of pt2
 
 v = clean_p(v); x = clean_p(x); 
 
@@ -24,4 +21,4 @@ lambda = x(1);
 b = x(m+2:2*m+1);
 r0 = I(1);
 
-save ../Manifolds/eigenpair_pt2_conj_NLS_proof a b lambda theta r0 nu
+% save ../Manifolds/eigenpair_pt2_conj_NLS_proof a b lambda theta r0 nu

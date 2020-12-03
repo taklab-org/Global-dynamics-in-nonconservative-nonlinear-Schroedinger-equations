@@ -1,25 +1,15 @@
-% function [P_at_1,error_at_1,P_at_minus_1,error_at_minus_1] = script_get_manifold(angle)
 clear
 clc
 close all
 
-%load eigenpair1_proof
-% load eigenpair_NLS_proof
-% load eigenpair_pt2_NLS_proof
 load eigenpair_pt1_conj_NLS_proof % conjugate of pt1
 % load eigenpair_pt2_conj_NLS_proof % conjugate of pt2
 
 % M = Taylor projection;  n_ext = Fourier padding
-%M = 190; scaling = 21.5; nu = 1; n_ext = 35; % gives end_points_proof5_NLS
-%M = 180; scaling = 21; nu = 1; n_ext = 40; % gives end_points_proof4_NLS
-% M = 40; scaling = 10; nu = 1; n_ext = 0;  
-% M = 150; scaling = 20; nu = 1; n_ext = 10;  % eigenpair_pt2_NLS_proof_pt2_v3
-% M = 40; scaling = 55; nu = 1; n_ext = 10; % eigenpair_pt2_NLS_proof_pt2_v4
-% M = 40; scaling = 70; nu = 1; n_ext = 10; % eigenpair_pt2_NLS_proof_pt2_v5
-% M = 40; scaling = 80; nu = 1; n_ext = 10; % eigenpair_pt2_NLS_proof_pt2_v6
- M = 150; scaling = 20; nu = 1; n_ext = 10;  % gives end_points_proof2_NLS
+% conjugate of pt1
+M = 150; scaling = 20; nu = 1; n_ext = 10;  % gives end_points_proof2_NLS
+% conjugate of pt2
 % angle = -60/180*pi;
-% M = 60; scaling = 75*exp(1i*angle); nu = 1; n_ext = 10;
 % M = 60; scaling = 75*exp(1i*angle); nu = 1; n_ext = 10;
 
 
