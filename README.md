@@ -2,7 +2,7 @@
 
 This repository contains the MATLAB codes associated with the paper:
 "Global dynamics in nonconservative nonlinear Schr\"odinger equations"
-by J Jaquette, J-P Lessard and A Takayasu.
+by J Jaquette, J-P Lessard and A Takayasu. ([arXiv:2012.09734 [math.AP]](https://arxiv.org/abs/2012.09734))
 
 **Abstract**  In this paper, we study the global dynamics of a class of nonlinear Schr\"odinger equations using perturbative and non-perturbative methods. We prove the semi-global existence of solutions for initial conditions close to constant. That is, solutions will exist for all positive time or all negative time.  The existence of an open set of initial data which limits to zero in both forward and backward time is also demonstrated. This result in turn forces the non-existence of any real-analytic conserved quantities. For the quadratic case, we prove the existence of two (infinite) families of nontrivial unstable equilibria and prove the existence of heteroclinic orbits limiting to the nontrivial equilibria in backward time and to zero in forward time. By a time reversal argument, we also obtain heteroclinic orbits limiting to the nontrivial equilibria in forward time and to zero in backward time. The proofs for the quadratic equation are computer-assisted and rely on three separate ingredients: an enclosure of a local unstable manifold at the equilibria, a rigorous integration of the flow (starting from the unstable manifold) and a proof that the solution enters a validated stable set (hence showing convergence to zero).
 
